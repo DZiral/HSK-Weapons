@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	
+    <!-- VINTOREZ -->
+    <ThingDef ParentName="BaseGun_LongBarreled">
+        <defName>Gun_Vintorez</defName>
+        <label>VSS Thread Cutter</label>
+        <description>Special forces sniper rifle VSS Vintorez.</description>
+        <graphicData>
+            <texPath>Things/Weapons/Vintorez</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>InteractRifle</soundInteract>
+        <statBases>
+            <MarketValue>1600</MarketValue>
+            <SightsEfficiency>1.64</SightsEfficiency>
+            <ShotSpread>0.02</ShotSpread>
+            <SwayFactor>0.72</SwayFactor>
+            <RangedWeapon_Cooldown>0.97</RangedWeapon_Cooldown>
+            <Bulk>9.5</Bulk>
+            <Mass>5.6</Mass>
+        </statBases>
+        <weaponTags>
+            <li>SNIP3</li>
+            <li>SniperRifle</li>
+            <li>TierTwoSniper</li>
+            <li>TierThreeSniper</li>
+            <li>CE_AI_Rifle</li>
+        </weaponTags>
+        <thingCategories>
+            <li>SRifles</li>
+        </thingCategories>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+			    <recoilAmount>0.75</recoilAmount>
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_9x39mmSoviet_FMJ</defaultProjectile>
+                <burstShotCount>3</burstShotCount>
+                <ticksBetweenBurstShots>16</ticksBetweenBurstShots>
+                <warmupTime>1.52</warmupTime>
+                <range>50</range>
+                <soundCast>SK_shotVintorez</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>FALSE</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+                <aimedBurstShotCount>2</aimedBurstShotCount>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>20</magazineSize>
+                <reloadTime>1.55</reloadTime>
+                <ammoSet>AmmoSet_9x39mmSoviet</ammoSet>
+            </li>
+            <li Class="WHands.WhandCompProps">
+                <MainHand>(-0.225,0.3,-0.1)</MainHand>
+                <SecHand>(0.225,0,-0.05)</SecHand>
+            </li>
+        </comps>
+        <smeltProducts>
+            <Sniper_Component>1</Sniper_Component>
+            <Weapon_Parts>8</Weapon_Parts>
+			<Plastic>5</Plastic>
+        </smeltProducts>
+    </ThingDef>
+	
+	
+</Defs>
