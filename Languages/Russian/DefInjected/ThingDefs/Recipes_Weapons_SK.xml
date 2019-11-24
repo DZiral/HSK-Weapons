@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+	<!-- ==================== Sniper Rifles ========================== -->
+	
+	<BuildVintorez.label>Собрать ВСС "Винторез"</BuildVintorez.label>
+	<BuildVintorez.description>Снайперская винтовка ВСС Винторез сил специального назначения.</BuildVintorez.description>
+	<BuildVintorez.jobString>Собирает ВСС "Винторез".</BuildVintorez.jobString>
+	
+</LanguageData>
