@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- ====================== Sniper Rifles ======================= -->	
+	
+	<Gun_Vintorez.label>ВСС "Винторез"</Gun_Vintorez.label>
+	<Gun_Vintorez.description>Снайперская винтовка ВСС Винторез сил специального назначения.\n\nИспользует боеприпасы: 9x39mm Soviet</Gun_Vintorez.description>
+
+</LanguageData>
