@@ -94,7 +94,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<thingClass>SK.OpticEvasion</thingClass>
+		<thingClass>SK.Apparel_PowerHelmet</thingClass>
 		<tickerType>Normal</tickerType>
 		<stuffCategories>
 			<li>Metallic</li>
