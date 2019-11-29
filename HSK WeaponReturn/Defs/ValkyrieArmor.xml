@@ -10,7 +10,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<thingClass>SK.OpticEvasionArmor</thingClass>
+		<thingClass>SK.Apparel_ValkyrieArmor</thingClass>
 		<tickerType>Normal</tickerType>		
 		<stuffCategories>
 			<li>HF</li>
@@ -94,7 +94,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<thingClass>SK.Apparel_PowerHelmet</thingClass>
+		<thingClass>SK.Apparel_ValkyrieHelmet</thingClass>
 		<tickerType>Normal</tickerType>
 		<stuffCategories>
 			<li>Metallic</li>
