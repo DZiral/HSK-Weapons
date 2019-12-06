@@ -10,6 +10,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
+<!--		<thingClass>SK.OpticEvasionArmor</thingClass>  -->
 		<thingClass>SK.Apparel_ValkyrieArmor</thingClass>
 		<tickerType>Normal</tickerType>		
 		<stuffCategories>
@@ -24,6 +25,19 @@
 			<BiosyntheticMaterial>4</BiosyntheticMaterial>
 			<Hexcell>7</Hexcell>
 		</costList>
+		<recipeMaker>
+			<workSpeedStat>SmithingSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Machining</soundWorking>
+			<recipeUsers>
+				<li>HyperTailoringBench</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Crafting>16</Crafting>
+			</skillRequirements>
+			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+		</recipeMaker>
 		<statBases>
 			<WorkToMake>31000</WorkToMake>
 			<EnergyShieldRechargeRate>0.2</EnergyShieldRechargeRate>
@@ -94,6 +108,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
+<!--		<thingClass>SK.Apparel_PowerHelmet</thingClass> -->
 		<thingClass>SK.Apparel_ValkyrieHelmet</thingClass>
 		<tickerType>Normal</tickerType>
 		<stuffCategories>
@@ -107,6 +122,19 @@
 			<MagneticMaterial>4</MagneticMaterial>
 			<Hexcell>6</Hexcell>
 		</costList>
+		<recipeMaker>
+			<workSpeedStat>SmithingSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Machining</soundWorking>
+			<recipeUsers>
+				<li>HyperTailoringBench</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Crafting>16</Crafting>
+			</skillRequirements>
+			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+		</recipeMaker>
 		<statBases>
 			<WorkToMake>21000</WorkToMake>
 			<EnergyShieldRechargeRate>0.05</EnergyShieldRechargeRate>
