@@ -10,7 +10,7 @@
             <texPath>Things/Weapons/Vintorez</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>InteractRifle</soundInteract>
+        <soundInteract>Interact_Rifle</soundInteract>
         <statBases>
             <MarketValue>1600</MarketValue>
             <SightsEfficiency>1.64</SightsEfficiency>
