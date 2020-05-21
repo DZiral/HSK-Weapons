@@ -46,7 +46,7 @@
 			<MaxHitPoints>120</MaxHitPoints>
 			<Flammability>3</Flammability>
 			<Insulation_Heat>10</Insulation_Heat>
-			<Insulation_Cold>-40</Insulation_Cold>
+			<Insulation_Cold>10</Insulation_Cold>
 			<ArmorRating_Blunt>0.55</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.58</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.5</ArmorRating_Heat>
@@ -142,7 +142,7 @@
 			<MaxHitPoints>67</MaxHitPoints>
 			<Flammability>1</Flammability>
 			<Insulation_Heat>10</Insulation_Heat>
-			<Insulation_Cold>-30</Insulation_Cold>
+			<Insulation_Cold>10</Insulation_Cold>
 			<ArmorRating_Blunt>0.70</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.87</ArmorRating_Heat>
